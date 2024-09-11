@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to right, #0F172A, #111C42);
+    color: #eceff1;
+}
+.Nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+    color: white;
+}
+
+.Nombre h1 {
+    font-size: 4rem; 
+    margin-bottom: 10px; 
+    font-weight: 700;
+}
+
+.Nombre h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #a29bfe; /* Color para el título secundario */
+}
+
+.Nombre h3 {
+    font-size: 1.5rem;
+    color: #b2bec3; /* Color para el subtítulo */
+}
+
+.Sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sobre-mi h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.Sobre-mi p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.Sobre-mi ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Sobre-mi ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.Sobre-mi ul li strong {
+    color: #a29bfe; /* Color para destacar la información clave */
+}
+
+.info li a {
+    color: #eceff1; /* Color de los iconos */
+    margin-right: 10px; /* Espacio entre los iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+.info li a:hover {
+    color: #1e90ff; /* Color del icono al pasar el ratón */
+}
+.tech-icons {
+    list-style: none;
+    display: flex; /* Alinea los iconos en una fila */
+    margin: 10px 0; /* Espacio vertical entre la lista y el resto del contenido */
+    padding: 0;
+}
+
+.tech-icons li {
+    margin-right: 15px; /* Espacio entre los iconos */
+    font-size: 30px; /* Tamaño de los iconos */
+}
+
+.tech-icons i {
+    color: #eceff1; /* Color de los iconos */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+.tech-icons i:hover {
+    color: #1e90ff; /* Color del icono al pasar el ratón */
+}

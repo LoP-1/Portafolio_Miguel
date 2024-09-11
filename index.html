@@ -4,85 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/proyectos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="curved-div">
-            <h1>Mi Portafolio</h1>
-                <p>
-                    <p>Hola, soy Miguel, un apasionado desarrollador de software con experiencia en Java y SpringBoot. Me especializo en Desarrollo Backend y disfruto trabajando en proyectos que desafían mi creatividad y habilidades.</p>
-                </p>
-            <svg viewBox="0 0 1440 319">
-            <path fill="#c7c7c7" fill-opacity="1" d="M0,32L48,80C96,128,192,224,288,224C384,224,480,128,576,90.7C672,53,768,75,864,96C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-            </svg>
-        </div>
+    <header class="header">
+        <nav>
+            <ul class="nav-enlaces">
+                <li><a href="#Nombre">Inicio</a></li>
+                <li><a href="#acerca">Sobre mí</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+
     
-
-    <!-- Sección Proyectos -->
-    <h2 class="titulo">Proyectos Recientes</h2>
-
-
-    <div class="proyectos">
-
-        <div class="proyecto">
-            <h3>API REST medicamentos</h3>
-            <p>CRUD completo de medicamentos GET POST PUT DELETE- deploy del proyecto en Render</p>
-            <a href="https://crudquantum-medicamentos.onrender.com">https://crudquantum-medicamentos.onrender.com</a> <p>//Podria demorar unos min en cargar</p>
-            <p>Tecnologías Utilizadas:</p>
+    <section id="Nombre" class="Nombre">
+        <h1>Miguel Castillo Valero</h1>
+        <h2>Estudiante de Ing Sistemas - Desarrollador Backend Jr</h2>
+        <h3>2 años de Experiencia</h3>
+    </section>
+    <div id="acerca"></div>
+    <section id="" class="Sobre-mi">
+        <h1>Sobre mí</h1>
+        <p>👨‍💻 Hola, soy estudiante de Ingenieria de Sistemas e Informatica actualmente curso el 7mo ciclo de la carrera. 
+            Especializado en Java, Spring Boot, y bases de datos SQL. Apasionado por aprender nuevas tecnologías 
+            y contribuir en proyectos de alto impacto. <br> <br> 🚀 Siempre en búsqueda de nuevos desafíos para mejorar 
+            mis habilidades y crecer profesionalmente.
+        </p>
+        <ul class="info">
+            <li><strong>Nombre:</strong> Miguel Angel Castillo Valero</li>
+            <li><strong>Grado:</strong> Estudiante de Ingenieria en Sistemas</li>
+            <li><strong>Edad:</strong> 21 años</li>
+            <li><strong>Correo:</strong> miguel.castillo.valero@outlook.com</li>
+            <li>
+                <strong>Tecnologías:</strong>
+                <ul class="tech-icons">
+                    <li><i class="fab fa-java" title="Java"></i> Java</li>
+                    <li><i class="fas fa-leaf" title="Spring Boot"></i> SpringBoot</li>
+                    <li><i class="fas fa-database" title="SQL"></i> MySQL</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Contacta conmigo:</strong>
+                <a href="mailto:miguel.castillo.valero@outlook.com" title="Enviar correo">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/miguelcastillo/" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/LoP-1" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="Proyectos" class="Proyectos">
+        <h1>Proyectos Destacados</h1>
+        <div class="project">
+            <h2>API REST medicamentos</h2>
+            <h3>CRUD Tabla Medicamentos</h3>
+            <p></p>
+            <p>Una api rest creada utilizando SpringBoot y docker para ser subida a Render utilizando el plan gratuito, con conexion a base de datos localizada en Hostinger.com</p>
+            <h3>Tecnologías</h3>
             <ul>
                 <li><i class="fas fa-leaf"></i> SpringBoot</li>
                 <li><i class="fas fa-database"></i> MySQL</li>
                 <li><i class="fab fa-docker"></i> Docker</li>
             </ul>
-            <p><a href="https://github.com/LoP-1/CrudQuantum_Medicamentos" target="_blank">Ver en GitHub</a></p>
+            <a href="https://github.com/LoP-1/CrudQuantum_Medicamentos" target="_blank"><span class="label">Ver en Github</span></a>
         </div>
-
-        <div class="proyecto">
-            
-            <h3>CRUD Personas</h3>
-            <p>Desarrollo de un crud para gestion de personas con formulario html incluido.</p>
-            <p>Tecnologías Utilizadas:</p>
+    
+        <div class="project">
+            <h2>CRUD Personas</h2>
+            <h3>CRUD de datos Personas con formulario</h3>
+            <p></p>
+            <p>Creacion de un crud con SpringBoot y vinculacion a un formulario html con Thymeleaf</p>
+            <h3>Tecnologías</h3>
             <ul>
                 <li><i class="fas fa-leaf"></i> SpringBoot</li>
                 <li><i class="fas fa-database"></i> MySQL</li>
                 <li><i class="fas fa-code"></i> Thymeleaf</li>
             </ul>
-            <p><a href="https://github.com/LoP-1/CrudSpring" target="_blank">Ver en GitHub</a></p>
+            <a href="https://github.com/LoP-1/CrudSpring" target="_blank"><span class="label">Ver en Github</span></a>
         </div>
 
-        <div class="proyecto">
-            <h3>Sistema de Gestión de Licencias</h3>
+        <div class="project">
+            <h2>Sistema de Gestión de Licencias</h2>
+            <h3>Algoritmos de busqueda y ordenamiento</h3>
+            <p></p>
             <p>Proyecto de universidad centrado en el uso de algoritmos para el ordenamiento, búsqueda y exportación de licencias de una municipalidad.</p>
-            <p>Tecnologías Utilizadas:</p>
+            <h3>Tecnologías</h3>
             <ul>
                 <li><i class="fab fa-java"></i> Java</li>
             </ul>
-            <p><a href="https://github.com/LoP-1/Sistema-de-Licencias" target="_blank">Ver en GitHub</a></p>
+            <a href="https://github.com/LoP-1/Sistema-de-Licencias" target="_blank"><span class="label">Ver en Github</span></a>
         </div>
 
-        
-    </div>
 
 
+    </section>
 
-
-
-    <footer>
-        <div class="footer-content">
-            <p>Contactame en:</p>
-            <p>miguel.castillo.valero@gmail.com</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/miguel-castillo-v/" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
+    <footer id="contacto">
+        <h1>Contáctame</h1>
+        <ul class="footer-links">
+            <li>
+                <a href="https://www.linkedin.com/in/miguel-castillo-v/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
-                <a href="https://github.com/LoP-1" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
+            </li>
+            <li>
+                <a href="https://github.com/LoP-1" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i> GitHub
                 </a>
-            </div>
-        </div>
+            </li>
+            <li>
+                <a href="mailto:miguel.castillo.valero@outlook.com" title="Correo">
+                    <i class="fas fa-envelope"></i> Correo
+                </a>
+            </li>
+        </ul>
     </footer>
+    
+
 </body>
 </html>

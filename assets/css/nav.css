@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth; /* Activa el desplazamiento suave para los enlaces ancla */
+}
+
+.header {
+    background-color: #0d0c24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    color: #eceff1;
+    font-weight: 700;
+    position: fixed; /* Fija el header en la parte superior */
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    top: 0; /* Alinea el header al borde superior de la página */
+    z-index: 1000; /* Asegura que el header esté sobre otros elementos */
+}
+
+.header .nav-enlaces {
+    list-style: none;
+}
+
+.header .nav-enlaces li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-enlaces a {
+    color: #eceff1;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    transition: transform 0.3s; /* Agrega una transición suave para el efecto de hover */
+}
+
+.header .nav-enlaces a:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón */
+}

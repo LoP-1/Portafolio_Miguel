@@ -1,0 +1,39 @@
+footer {
+    background-color: #0d0c24;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #a29bfe;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex; 
+    align-items: center; 
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links i {
+    margin-right: 10px; 
+}

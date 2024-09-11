@@ -1,0 +1,52 @@
+.Proyectos {
+    padding: 5rem;
+}
+
+.Proyectos h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    background-color: #1a2b3c;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    font-size: 1.5em;
+    margin: 20px 0 10px 0; /* Aumentar margen superior e inferior */
+    color: #a29bfe;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin: 15px 0 5px 0; /* Aumentar margen superior e inferior */
+}
+
+.project p {
+    margin: 10px 0; /* Aumentar margen superior e inferior */
+}
+
+.label {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.project ul {
+    list-style: none;
+    padding: 0; /* Eliminar padding para la lista */
+    margin: 10px 0; /* Espaciado superior e inferior */
+}
+
+.project ul li {
+    margin-bottom: 10px; /* Espaciado entre los ítems de la lista */
+}
